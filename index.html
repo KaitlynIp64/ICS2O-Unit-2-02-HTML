@@ -3,7 +3,7 @@
 <html lang="en-ca">
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="My First webpage, with Javascript">
+    <meta name="description" content="Basic Math, with JS">
     <meta name="keywords" content="mths, ics2o">
     <meta name="author" content="Kaitlyn Ip">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,5 +13,31 @@
     <link rel="manifest" href="./site/webmanifest">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
      <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_orange-orange.min.css" /> 
-    <title>My First webpage, with Javascript</title>
+    <title>Basic Math, with JS</title>
   </head>
+  <body>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="./js/script.js"></script>
+    <div class = "mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class = "mdl-layout__header">
+        <div class = "mdl-layout__header-row">
+          <span class = "mdl-layout-title">Basic Math, with JS</span>
+        </div>
+      </header>
+      <main class = "mdl-layout__content">
+        <!-- basic text -->
+      <div id="multiply-math">
+        <p>The dimensions of a rectangle are: 5 cm & 3 cm.</p>
+        <p>The area is: ? cm</p>
+      </div>
+      <div id="add-math">
+        <p>The perimeter is: ? cm</p>
+      </div>
+      <!-- Raised button with ripple -->
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="doMathClicked()">
+          Do math
+        </button>
+      </main>
+    </div>
+  </body>
+</html>
