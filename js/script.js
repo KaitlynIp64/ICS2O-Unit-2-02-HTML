@@ -8,6 +8,6 @@
  * Do basic math.
  */
 function doMathClicked() {
-  document.getElementById('multiply-math').innerHTML = '<p>The area: ? cm' + (5 * 3) + '</p>'
-  document.getElementById('add-math').innerHTML = '<p>(The perimeter is: ? cm ' + (5+5+3+3) + '</p>'
+  document.getElementById('multiply-math').innerHTML = '<p>The area: ' + (5 * 3) + 'cm²</p>'
+  document.getElementById('add-math').innerHTML = '<p>(The perimeter is: ' + (5+5+3+3) + 'cm</p>'
 }
